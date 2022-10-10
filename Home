@@ -1,0 +1,189 @@
+#include <iostream>
+#include <cmath>
+#include <iomanip>
+using namespace std;
+int main(int argc, const char * argv[]) {
+    // insert code here...
+    
+    /*
+     
+
+    
+    /*
+    
+    problem 1
+    
+    int num;
+    
+    cout << "Enter your age: ";
+    cin >> num;
+    
+    if (num >= 18) {
+        cout << "Eligible" << endl;
+    }
+    else {
+        cout << "Not eligible" << endl;
+    }
+    
+    */
+    
+    /*
+    
+    problem 2
+     
+    int birinchi, ikkinchi, uchinchi, number3;
+        
+        cout << "Enter numbers: ";
+        cin >> birinchi >> ikkinchi >> uchinchi;
+        
+        if (birinchi > ikkinchi and birinchi > uchinchi) {
+            cout << birinchi << " is the biggest" << endl;
+        }
+        
+        else if (ikkinchi > birinchi and ikkinchi > uchinchi) {
+            cout << ikkinchi << " is the biggest" << endl;
+        }
+        
+        else if (uchinchi > birinchi and uchinchi > ikkinchi) {
+            cout << uchinchi << " is the biggest" << endl;
+        }
+     
+     */
+    
+    /*
+    
+    problem 3
+    
+      char op;
+      float num1, num2;
+
+      cout << "Enter operator: +, -, *, / ";
+      cin >> op;
+
+      cout << "Enter two operands: ";
+      cin >> num1 >> num2;
+
+      switch(op) {
+
+        case '+':
+          cout << num1 << " + " << num2 << " = " << num1 + num2;
+          break;
+
+        case '-':
+          cout << num1 << " - " << num2 << " = " << num1 - num2;
+          break;
+
+        case '*':
+          cout << num1 << " * " << num2 << " = " << num1 * num2;
+          break;
+
+        case '/':
+          cout << num1 << " / " << num2 << " = " << num1 / num2;
+          break;
+
+        default:
+          cout << "Error! operator is not correct";
+          break;
+      }
+     
+     */
+    
+    /*
+     
+    program 4
+    
+    int number;
+    char a;
+    
+    cout << "Enter number code of month: ";
+    cin >> number;
+    
+    switch (number) {
+        case 1:
+            cout << "31 days";
+            break;
+        case 2:
+            cout << "28(29) days";
+            break;
+        case 3:
+            cout << "31 days";
+            break;
+        case 4:
+            cout << "30 days";
+            break;
+        case 5:
+            cout << "31 days";
+            break;
+        case 6:
+            cout << "30 days";
+            break;
+        case 7:
+            cout << "31 days";
+            break;
+        case 8:
+            cout << "31 days";
+            break;
+        case 9:
+            cout << "31 days";
+            break;
+        case 10:
+            cout << "31 days";
+            break;
+        case 11:
+            cout << "30 days";
+            break;
+        case 12:
+            cout << "31 days";
+            break;
+            
+        default:
+            break;
+    }
+    
+     */
+    
+    /*
+    
+    problem 5
+    
+    char ch;
+      cout << "Enter character: ";
+      cin >> ch;
+      
+      if((ch >= 'a' && ch <= 'z') || (ch >= 'A' && ch <= 'Z'))
+      {
+          cout << ch << " is an Alphabet" << endl;
+      }
+      else if(ch >= '0' && ch <= '9')
+      {
+          cout << ch << " is a Digit" << endl;
+      }
+      else
+      {
+          cout << ch << " is a Special Character" << endl;
+      }
+     
+     */
+    
+    
+    int a, b, c;
+    
+    cout << "Number of classes held: ";
+    cin >> a;
+    
+    cout << "Number of classes attended: ";
+    cin >> b;
+    
+    c = (b * 100) / a;
+    
+    cout << "The attendance percentage is " << c << endl;
+    
+    if (c > 75) {
+        cout << "Student is allowed to sit in exam" << endl;
+    }
+    else {
+        cout << "Student is not allowed to sit in exam" << endl;
+    }
+    
+    return 0;
+}
